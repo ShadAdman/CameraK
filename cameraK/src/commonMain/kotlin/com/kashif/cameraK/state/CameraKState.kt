@@ -180,6 +180,14 @@ sealed class CameraKEvent {
     data class TextRecognized(val text: String) : CameraKEvent()
 
     /**
+     * Latest frame.
+     *
+     * @property frame : byte array.
+     */
+    @Immutable
+    data class LatestFrame(val frame: ByteArray) : CameraKEvent()
+
+    /**
      * Camera permission denied by user.
      *
      * @property permission The denied permission name.
