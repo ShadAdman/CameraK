@@ -493,7 +493,7 @@ ocrPlugin.stopRecognition()
 
 ### Analyzer Plugin
 
-Image Aalyzer - observe latest frame in a thread safe environment. Results are delivered through `CameraKEvent.LatestFrame` events via the `events` SharedFlow on `CameraKStateHolder`.
+Image Analyzer - observe latest frame in a thread safe environment. Results are delivered through `CameraKEvent.LatestFrame` events via the `events` SharedFlow on `CameraKStateHolder`.
 
 #### Setup
 
